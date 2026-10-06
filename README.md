@@ -33,8 +33,7 @@ python scripts/run_extraction.py --mode replay --input-dir runtime/ocr --output-
 
 Four genuine compatible captures are supplied; their recorded model is **gemini-3.1-flash-lite**. Replay performs no network calls and does not load `.env`. Exit 1 is expected for the missing-PO issue. The two additional cases have no genuine Gemini captures. Synthetic test responses are explicitly labeled and rejected by production replay.
 
-Live extraction is optional and requires a private root `.env` based on `.env.example`. The configured model is used without switching. Never commit credentials. Explicit note-generation actions also require live access; notes never change reconciliation or send messages.
-
+Live extraction is optional and requires a private root `.env` based on `.env.example`.
 ## Rules, corrections and limitations
 
 Integer USD cents are used throughout. Match by supplier and PO identifiers; ambiguous, conflicting or missing references remain unresolved. Expected amount is ordered quantity times agreed price. Negative quantities/money are unresolved; zero is preserved without inventing a zero-specific prohibition. Invoice/receipt SKU mismatch conservatively leaves expected/difference unknown. Missing totals are never calculated. These policies and tests document domain ambiguities.
