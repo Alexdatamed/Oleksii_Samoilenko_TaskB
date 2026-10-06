@@ -1,0 +1,53 @@
+{
+  "origin": "synthetic_test",
+  "live_gemini_requests": 0,
+  "tests": {
+    "count": 131,
+    "seconds": 21.648,
+    "result": "OK"
+  },
+  "browser_checks": [
+    "Reconciled invoice has no-note-needed state and disabled buttons",
+    "Saved draft renders readable English text and actual source labels",
+    "Synthetic draft clearly labeled; JSON/metadata not displayed",
+    "Explicit replay preserves draft",
+    "Correction hides outdated draft and refreshes total to $30.00",
+    "Replay after correction reports unavailable",
+    "Explicit invalid synthetic response shows failed state without changing totals"
+  ],
+  "note_attempts": [
+    [
+      "llm",
+      "failed",
+      1
+    ],
+    [
+      "llm",
+      "ready",
+      1
+    ],
+    [
+      "replay",
+      "ready",
+      1
+    ],
+    [
+      "replay",
+      "unavailable",
+      1
+    ]
+  ],
+  "synthetic_capture_count": 2,
+  "protected_count": 67,
+  "protected_changed": [],
+  "original_database": {
+    "schema_version": 1,
+    "correction_count": 1
+  },
+  "limitations": [
+    "No genuine note generated or replayed in this implementation stage",
+    "Mobile not separately tested",
+    "Free-text accuracy requires human review"
+  ],
+  "final_capture_integrity_checks": "Final full suite also verifies whole-record checksum tampering of origin, timestamp and SDK version."
+}

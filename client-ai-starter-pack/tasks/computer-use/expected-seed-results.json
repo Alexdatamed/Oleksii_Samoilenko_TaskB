@@ -1,0 +1,37 @@
+[
+  {
+    "request_id": "R1",
+    "status": "draft",
+    "vendor_id": "V1",
+    "address": {
+      "line1": "42 Fiction Lane",
+      "city": "Demo City",
+      "postal_code": "00123",
+      "country": "Exampleland"
+    }
+  },
+  {
+    "request_id": "R2",
+    "status": "needs-information",
+    "reason": "two vendor names match",
+    "new_drafts": 0
+  },
+  {
+    "request_id": "R3",
+    "status": "needs-information",
+    "reason": "missing postal code",
+    "new_drafts": 0
+  },
+  {
+    "request_id": "R4",
+    "status": "unresolved",
+    "reason": "unknown vendor",
+    "new_drafts": 0
+  },
+  {
+    "request_id": "R5",
+    "status": "draft-after-one-retry-or-failed",
+    "max_new_drafts": 1,
+    "failure_must_be_visible": true
+  }
+]

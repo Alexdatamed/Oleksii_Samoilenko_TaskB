@@ -1,0 +1,56 @@
+{
+  "purchase_orders": [
+    {
+      "po_id": "PO-3",
+      "supplier_id": "S1",
+      "sku": "CAB-1",
+      "quantity": 5,
+      "unit_cents": 2000
+    },
+    {
+      "po_id": "PO-4",
+      "supplier_id": "S1",
+      "sku": "CAB-1",
+      "quantity": 5,
+      "unit_cents": 2000
+    }
+  ],
+  "receipts": [
+    {
+      "receipt_id": "RC-3",
+      "po_id": "PO-3",
+      "sku": "CAB-1",
+      "quantity": 5
+    },
+    {
+      "receipt_id": "RC-4",
+      "po_id": "PO-4",
+      "sku": "CAB-1",
+      "quantity": 5
+    }
+  ],
+  "invoices": [
+    {
+      "file_id": "quantity-mismatch",
+      "invoice_number": "INV-4",
+      "supplier_id": "S1",
+      "po_id": "PO-3",
+      "sku": "CAB-1",
+      "quantity": 6,
+      "unit_cents": 2000,
+      "total_cents": 12000,
+      "layout": "a"
+    },
+    {
+      "file_id": "sku-mismatch",
+      "invoice_number": "INV-5",
+      "supplier_id": "S1",
+      "po_id": "PO-4",
+      "sku": "CAB-2",
+      "quantity": 5,
+      "unit_cents": 2000,
+      "total_cents": 10000,
+      "layout": "b"
+    }
+  ]
+}

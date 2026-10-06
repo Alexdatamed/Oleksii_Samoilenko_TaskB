@@ -1,0 +1,13 @@
+{
+  "file_id": "0003",
+  "original_filename": "synthetic-invalid.png",
+  "mode": "replay",
+  "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ui-redesign-smoke\\uploads\\batches\\baf197e181b2466b83ec7d082fc22fef\\ocr\\0003.md",
+  "image_sha256": "33246fbb5a72e8a474713f3fdd755077434f5e2d54a17782598c474c18cc2216",
+  "status": "error",
+  "fields": null,
+  "issues": [],
+  "metadata": {},
+  "error": "Image validation failed (UnidentifiedImageError)",
+  "duration_seconds": 0.0
+}

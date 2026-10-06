@@ -1,0 +1,27 @@
+[
+  {
+    "file_id": "clean",
+    "status": "reconciled",
+    "expected_cents": 10000,
+    "billed_cents": 10000,
+    "difference_cents": 0
+  },
+  {
+    "file_id": "wrong-price",
+    "status": "discrepant",
+    "expected_cents": 10000,
+    "billed_cents": 12000,
+    "difference_cents": 2000
+  },
+  {
+    "file_id": "duplicate",
+    "status": "duplicate",
+    "count_as_payable": false
+  },
+  {
+    "file_id": "missing-reference",
+    "status": "unresolved",
+    "expected_cents": null,
+    "difference_cents": null
+  }
+]

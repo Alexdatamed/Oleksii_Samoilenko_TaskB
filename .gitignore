@@ -1,0 +1,16 @@
+# Project credentials; never commit these files.
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+
+# Local invoice databases and SQLite journal files.
+runtime/**/*.sqlite3
+runtime/**/*.sqlite3-*
+runtime/*.sqlite3
+runtime/*.sqlite3-*
+
+# Local IDE configuration.
+.idea/

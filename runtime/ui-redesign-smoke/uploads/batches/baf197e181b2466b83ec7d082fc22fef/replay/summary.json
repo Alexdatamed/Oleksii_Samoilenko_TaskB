@@ -1,0 +1,232 @@
+{
+  "mode": "replay",
+  "provenance": "uploaded image batch",
+  "files": [
+    {
+      "file_id": "0000",
+      "original_filename": "clean.png",
+      "mode": "replay",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ui-redesign-smoke\\uploads\\batches\\baf197e181b2466b83ec7d082fc22fef\\ocr\\0000.md",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "status": "success",
+      "fields": {
+        "file_id": "0000",
+        "invoice_number": "INV-1",
+        "supplier_id": "S1",
+        "po_id": "PO-1",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [],
+      "metadata": {
+        "ocr_sha256": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc",
+        "capture": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc/20261006T113129150488Z_95970d45a85a40f1813eaad793e2febe.capture.json",
+        "origin": "real_gemini",
+        "configuration_fingerprint": "5bf02fce1c26d09580ede440cd61d07f4b9681cd5239e74e2ddbaa024a78b0b1",
+        "requested_model": "gemini-3.1-flash-lite",
+        "returned_model": "gemini-3.1-flash-lite",
+        "sdk_version": "2.28.0",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 99,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 425,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 425
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 524,
+          "traffic_type": null
+        },
+        "finish_reason": "STOP",
+        "attempts": 1
+      },
+      "error": null,
+      "image_reference": "0000.png",
+      "duration_seconds": 0.027
+    },
+    {
+      "file_id": "0001",
+      "original_filename": "duplicate.png",
+      "mode": "replay",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ui-redesign-smoke\\uploads\\batches\\baf197e181b2466b83ec7d082fc22fef\\ocr\\0001.md",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "status": "success",
+      "fields": {
+        "file_id": "0001",
+        "invoice_number": "INV-1",
+        "supplier_id": "S1",
+        "po_id": "PO-1",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [],
+      "metadata": {
+        "ocr_sha256": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc",
+        "capture": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc/20261006T113129150488Z_95970d45a85a40f1813eaad793e2febe.capture.json",
+        "origin": "real_gemini",
+        "configuration_fingerprint": "5bf02fce1c26d09580ede440cd61d07f4b9681cd5239e74e2ddbaa024a78b0b1",
+        "requested_model": "gemini-3.1-flash-lite",
+        "returned_model": "gemini-3.1-flash-lite",
+        "sdk_version": "2.28.0",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 99,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 425,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 425
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 524,
+          "traffic_type": null
+        },
+        "finish_reason": "STOP",
+        "attempts": 1
+      },
+      "error": null,
+      "image_reference": "0001.png",
+      "duration_seconds": 0.026
+    },
+    {
+      "file_id": "0002",
+      "original_filename": "missing-reference.png",
+      "mode": "replay",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ui-redesign-smoke\\uploads\\batches\\baf197e181b2466b83ec7d082fc22fef\\ocr\\0002.md",
+      "image_sha256": "54675ae6c067b8b9c00825c43692f4e408de546aadf0cce04fa217f3b73be7ef",
+      "status": "issues",
+      "fields": {
+        "file_id": "0002",
+        "invoice_number": "INV-3",
+        "supplier_id": "S1",
+        "po_id": null,
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [
+        {
+          "field": "po_id",
+          "code": "missing",
+          "message": "Purchase order is missing from the document.",
+          "raw_values": [
+            "(missing)"
+          ]
+        }
+      ],
+      "metadata": {
+        "ocr_sha256": "75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a",
+        "capture": "75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a/20261006T113130906305Z_ce70994df9914f2d97df5c757214b78f.capture.json",
+        "origin": "real_gemini",
+        "configuration_fingerprint": "5bf02fce1c26d09580ede440cd61d07f4b9681cd5239e74e2ddbaa024a78b0b1",
+        "requested_model": "gemini-3.1-flash-lite",
+        "returned_model": "gemini-3.1-flash-lite",
+        "sdk_version": "2.28.0",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 153,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 427,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 427
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 580,
+          "traffic_type": null
+        },
+        "finish_reason": "STOP",
+        "attempts": 1
+      },
+      "error": null,
+      "image_reference": "0002.png",
+      "duration_seconds": 0.028
+    },
+    {
+      "file_id": "0003",
+      "original_filename": "synthetic-invalid.png",
+      "mode": "replay",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ui-redesign-smoke\\uploads\\batches\\baf197e181b2466b83ec7d082fc22fef\\ocr\\0003.md",
+      "image_sha256": "33246fbb5a72e8a474713f3fdd755077434f5e2d54a17782598c474c18cc2216",
+      "status": "error",
+      "fields": null,
+      "issues": [],
+      "metadata": {},
+      "error": "Image validation failed (UnidentifiedImageError)",
+      "duration_seconds": 0.0
+    },
+    {
+      "file_id": "0004",
+      "original_filename": "wrong-price.png",
+      "mode": "replay",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ui-redesign-smoke\\uploads\\batches\\baf197e181b2466b83ec7d082fc22fef\\ocr\\0004.md",
+      "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+      "status": "success",
+      "fields": {
+        "file_id": "0004",
+        "invoice_number": "INV-2",
+        "supplier_id": "S1",
+        "po_id": "PO-2",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2400,
+        "total_cents": 12000
+      },
+      "issues": [],
+      "metadata": {
+        "ocr_sha256": "b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74",
+        "capture": "b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74/20261006T113132937304Z_82b341debcf14350a848e8b021f07594.capture.json",
+        "origin": "real_gemini",
+        "configuration_fingerprint": "5bf02fce1c26d09580ede440cd61d07f4b9681cd5239e74e2ddbaa024a78b0b1",
+        "requested_model": "gemini-3.1-flash-lite",
+        "returned_model": "gemini-3.1-flash-lite",
+        "sdk_version": "2.28.0",
+        "usage": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 99,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 427,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 427
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 526,
+          "traffic_type": null
+        },
+        "finish_reason": "STOP",
+        "attempts": 1
+      },
+      "error": null,
+      "image_reference": "0004.png",
+      "duration_seconds": 0.02
+    }
+  ]
+}

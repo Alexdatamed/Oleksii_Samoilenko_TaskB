@@ -1,0 +1,115 @@
+{
+  "mode": "parser",
+  "provenance": "uploaded image batch",
+  "files": [
+    {
+      "file_id": "0000",
+      "original_filename": "clean.png",
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\d5b15c9fa4d34715a062f511c59cc195\\ocr\\0000.md",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "status": "success",
+      "fields": {
+        "file_id": "0000",
+        "invoice_number": "INV-1",
+        "supplier_id": "S1",
+        "po_id": "PO-1",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [],
+      "metadata": {
+        "ocr_sha256": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc"
+      },
+      "error": null,
+      "image_reference": "0000.png",
+      "duration_seconds": 52.438
+    },
+    {
+      "file_id": "0001",
+      "original_filename": "duplicate.png",
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\d5b15c9fa4d34715a062f511c59cc195\\ocr\\0001.md",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "status": "success",
+      "fields": {
+        "file_id": "0001",
+        "invoice_number": "INV-1",
+        "supplier_id": "S1",
+        "po_id": "PO-1",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [],
+      "metadata": {
+        "ocr_sha256": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc"
+      },
+      "error": null,
+      "image_reference": "0001.png",
+      "duration_seconds": 31.769
+    },
+    {
+      "file_id": "0002",
+      "original_filename": "missing-reference.png",
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\d5b15c9fa4d34715a062f511c59cc195\\ocr\\0002.md",
+      "image_sha256": "54675ae6c067b8b9c00825c43692f4e408de546aadf0cce04fa217f3b73be7ef",
+      "status": "issues",
+      "fields": {
+        "file_id": "0002",
+        "invoice_number": "INV-3",
+        "supplier_id": "S1",
+        "po_id": null,
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [
+        {
+          "field": "po_id",
+          "code": "missing",
+          "message": "Field has no known value",
+          "raw_values": [
+            "(missing)"
+          ]
+        }
+      ],
+      "metadata": {
+        "ocr_sha256": "75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a"
+      },
+      "error": null,
+      "image_reference": "0002.png",
+      "duration_seconds": 31.519
+    },
+    {
+      "file_id": "0003",
+      "original_filename": "wrong-price.png",
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\d5b15c9fa4d34715a062f511c59cc195\\ocr\\0003.md",
+      "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+      "status": "success",
+      "fields": {
+        "file_id": "0003",
+        "invoice_number": "INV-2",
+        "supplier_id": "S1",
+        "po_id": "PO-2",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2400,
+        "total_cents": 12000
+      },
+      "issues": [],
+      "metadata": {
+        "ocr_sha256": "b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74"
+      },
+      "error": null,
+      "image_reference": "0003.png",
+      "duration_seconds": 31.922
+    }
+  ]
+}

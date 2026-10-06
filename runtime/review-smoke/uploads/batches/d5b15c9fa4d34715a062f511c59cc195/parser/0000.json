@@ -1,0 +1,25 @@
+{
+  "file_id": "0000",
+  "original_filename": "clean.png",
+  "mode": "parser",
+  "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\d5b15c9fa4d34715a062f511c59cc195\\ocr\\0000.md",
+  "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+  "status": "success",
+  "fields": {
+    "file_id": "0000",
+    "invoice_number": "INV-1",
+    "supplier_id": "S1",
+    "po_id": "PO-1",
+    "sku": "CAB-1",
+    "quantity": 5,
+    "unit_price_cents": 2000,
+    "total_cents": 10000
+  },
+  "issues": [],
+  "metadata": {
+    "ocr_sha256": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc"
+  },
+  "error": null,
+  "image_reference": "0000.png",
+  "duration_seconds": 52.438
+}

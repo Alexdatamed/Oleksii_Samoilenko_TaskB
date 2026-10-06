@@ -1,0 +1,11 @@
+{
+  "file_id": "REPLACE_FILE_ID",
+  "invoice_number": "REPLACE_INVOICE_NUMBER",
+  "supplier_id": "S1",
+  "po_id": "PO-1",
+  "sku": "CAB-1",
+  "quantity": 5,
+  "unit_cents": 2000,
+  "total_cents": 10000,
+  "layout": "a"
+}

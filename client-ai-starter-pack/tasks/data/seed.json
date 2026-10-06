@@ -1,0 +1,58 @@
+{
+  "customers": [
+    {
+      "customer_id": "C1",
+      "segment": "small"
+    },
+    {
+      "customer_id": "C2",
+      "segment": "large"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "O1",
+      "customer_id": "C1",
+      "order_date": "2026-08-05",
+      "amount_cents": 5000
+    },
+    {
+      "order_id": "O2",
+      "customer_id": "C2",
+      "order_date": "2026-08-10",
+      "amount_cents": 5000
+    },
+    {
+      "order_id": "O3",
+      "customer_id": "C1",
+      "order_date": "2026-09-05",
+      "amount_cents": 5000
+    },
+    {
+      "order_id": "O4",
+      "customer_id": "C2",
+      "order_date": "2026-09-10",
+      "amount_cents": 5000
+    }
+  ],
+  "refunds": [
+    {
+      "refund_id": "RF1",
+      "order_id": "O1",
+      "refund_date": "2026-08-20",
+      "amount_cents": 1000
+    },
+    {
+      "refund_id": "RF2",
+      "order_id": "O3",
+      "refund_date": "2026-09-20",
+      "amount_cents": 2000
+    },
+    {
+      "refund_id": "RF3",
+      "order_id": "O3",
+      "refund_date": "2026-09-21",
+      "amount_cents": 1000
+    }
+  ]
+}

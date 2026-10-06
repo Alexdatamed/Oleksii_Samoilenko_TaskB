@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ordinary",
+    "args": [
+      2,
+      2000,
+      false
+    ],
+    "expected": 4500
+  },
+  {
+    "id": "threshold",
+    "args": [
+      1,
+      10000,
+      false
+    ],
+    "expected": 10000
+  },
+  {
+    "id": "precedence",
+    "args": [
+      1,
+      11000,
+      true
+    ],
+    "expected": 10400
+  },
+  {
+    "id": "rounding",
+    "args": [
+      1,
+      1005,
+      true
+    ],
+    "expected": 1404
+  },
+  {
+    "id": "zero",
+    "args": [
+      0,
+      2000,
+      true
+    ],
+    "expected": 0
+  }
+]

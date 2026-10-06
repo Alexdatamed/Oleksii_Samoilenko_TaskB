@@ -1,0 +1,32 @@
+{
+  "scope": "original seed only",
+  "periods": [
+    {
+      "start": "2026-08-01",
+      "end_exclusive": "2026-09-01",
+      "gross_cents": 10000,
+      "refunds_cents": 1000,
+      "net_cents": 9000
+    },
+    {
+      "start": "2026-09-01",
+      "end_exclusive": "2026-10-01",
+      "gross_cents": 10000,
+      "refunds_cents": 3000,
+      "net_cents": 7000
+    }
+  ],
+  "net_change_cents": -2000,
+  "september_segments": {
+    "small": {
+      "gross_cents": 5000,
+      "refunds_cents": 3000,
+      "net_cents": 2000
+    },
+    "large": {
+      "gross_cents": 5000,
+      "refunds_cents": 0,
+      "net_cents": 5000
+    }
+  }
+}

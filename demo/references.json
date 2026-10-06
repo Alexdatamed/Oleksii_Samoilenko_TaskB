@@ -1,0 +1,58 @@
+{
+  "purchase_orders": [
+    {
+      "po_id": "PO-1",
+      "supplier_id": "S1",
+      "sku": "CAB-1",
+      "quantity": 5,
+      "unit_cents": 2000
+    },
+    {
+      "po_id": "PO-2",
+      "supplier_id": "S1",
+      "sku": "CAB-1",
+      "quantity": 5,
+      "unit_cents": 2000
+    },
+    {
+      "po_id": "PO-3",
+      "supplier_id": "S1",
+      "sku": "CAB-1",
+      "quantity": 5,
+      "unit_cents": 2000
+    },
+    {
+      "po_id": "PO-4",
+      "supplier_id": "S1",
+      "sku": "CAB-1",
+      "quantity": 5,
+      "unit_cents": 2000
+    }
+  ],
+  "receipts": [
+    {
+      "receipt_id": "RC-1",
+      "po_id": "PO-1",
+      "sku": "CAB-1",
+      "quantity": 5
+    },
+    {
+      "receipt_id": "RC-2",
+      "po_id": "PO-2",
+      "sku": "CAB-1",
+      "quantity": 5
+    },
+    {
+      "receipt_id": "RC-3",
+      "po_id": "PO-3",
+      "sku": "CAB-1",
+      "quantity": 5
+    },
+    {
+      "receipt_id": "RC-4",
+      "po_id": "PO-4",
+      "sku": "CAB-1",
+      "quantity": 5
+    }
+  ]
+}

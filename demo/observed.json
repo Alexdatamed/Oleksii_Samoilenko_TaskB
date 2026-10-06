@@ -1,0 +1,116 @@
+{
+  "actual_verification": {
+    "passed": true,
+    "failures": [],
+    "summary": {
+      "dataset": "demo-six-parser",
+      "dataset_id": "09622e77-e982-4d51-9f6f-571815a1a6b0",
+      "mode": "parser",
+      "total_invoices": 6,
+      "counts_by_status": {
+        "reconciled": 1,
+        "discrepant": 2,
+        "duplicate": 1,
+        "unresolved": 2
+      },
+      "processing_errors": 0,
+      "current_extraction_issue_invoices": 1,
+      "overcharge_cents": 4000
+    },
+    "cases": [
+      {
+        "file_id": "clean",
+        "status": "reconciled",
+        "findings": [],
+        "billed_cents": 10000,
+        "expected_cents": 10000,
+        "difference_cents": 0
+      },
+      {
+        "file_id": "duplicate",
+        "status": "duplicate",
+        "findings": [
+          "duplicate_identity"
+        ],
+        "billed_cents": 10000,
+        "expected_cents": 10000,
+        "difference_cents": 0
+      },
+      {
+        "file_id": "missing-reference",
+        "status": "unresolved",
+        "findings": [
+          "missing_po_reference"
+        ],
+        "billed_cents": 10000,
+        "expected_cents": null,
+        "difference_cents": null
+      },
+      {
+        "file_id": "quantity-mismatch",
+        "status": "discrepant",
+        "findings": [
+          "ordered_quantity_mismatch",
+          "received_quantity_mismatch"
+        ],
+        "billed_cents": 12000,
+        "expected_cents": 10000,
+        "difference_cents": 2000
+      },
+      {
+        "file_id": "sku-mismatch",
+        "status": "unresolved",
+        "findings": [
+          "sku_mismatch"
+        ],
+        "billed_cents": 10000,
+        "expected_cents": null,
+        "difference_cents": null
+      },
+      {
+        "file_id": "wrong-price",
+        "status": "discrepant",
+        "findings": [
+          "unit_price_mismatch"
+        ],
+        "billed_cents": 12000,
+        "expected_cents": 10000,
+        "difference_cents": 2000
+      }
+    ]
+  },
+  "preservation": {
+    "passed": true,
+    "protected_files": 164,
+    "changed": []
+  },
+  "tests": {
+    "count": 139,
+    "seconds": 21.559,
+    "exit_code": 0
+  },
+  "real_ocr": {
+    "quantity-mismatch": 49.267,
+    "sku-mismatch": 32.05
+  },
+  "original_four_ocr": "reused authentic runtime/ocr exports without modification",
+  "browser": "passed: six rows, $40.00 cards, additional source images, quantity findings and PO-3/RC-3, SKU findings and PO-4/RC-4 with unknown expected/difference",
+  "gemini": {
+    "kind": "actual replay of pre-existing genuine Gemini captures; no new provider response",
+    "files": 4,
+    "processing_errors": 0,
+    "extraction_issues": 1,
+    "sdk_client_calls": 0,
+    "dotenv_calls": 0,
+    "ocr_calls": 0,
+    "origins": [
+      "real_gemini"
+    ],
+    "requested_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "independent_original_fields_match": true
+  },
+  "new_live_gemini_requests": 0,
+  "synthetic_demo_responses": 0
+}

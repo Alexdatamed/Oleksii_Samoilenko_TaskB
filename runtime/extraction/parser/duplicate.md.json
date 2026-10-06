@@ -1,0 +1,19 @@
+{
+  "mode": "parser",
+  "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ocr\\duplicate.md",
+  "file_id": "duplicate",
+  "status": "success",
+  "fields": {
+    "file_id": "duplicate",
+    "invoice_number": "INV-1",
+    "supplier_id": "S1",
+    "po_id": "PO-1",
+    "sku": "CAB-1",
+    "quantity": 5,
+    "unit_price_cents": 2000,
+    "total_cents": 10000
+  },
+  "issues": [],
+  "error": null,
+  "duration_seconds": 0.0
+}

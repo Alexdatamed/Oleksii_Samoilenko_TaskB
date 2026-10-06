@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Q1",
+    "answer": "No, paid plans only.",
+    "source": "EXPORT-v2:p1",
+    "show_conflict_with": "EXPORT-v1:p1"
+  },
+  {
+    "id": "Q2",
+    "status": "unresolved",
+    "owner": "Product reviewer",
+    "reason": "JSON export is undocumented"
+  },
+  {
+    "id": "Q3",
+    "answer": "Monday to Friday, 09:00–17:00 UTC",
+    "source": "SUPPORT-v1:p1"
+  },
+  {
+    "id": "approval-reuse",
+    "steps": "Approve a corrected Q1 answer, then ask Q1 again. Reuse only the approved wording with approval and source records."
+  },
+  {
+    "id": "source-change",
+    "steps": "Change the version of an approved answer’s source. Mark the answer for review before reuse."
+  }
+]

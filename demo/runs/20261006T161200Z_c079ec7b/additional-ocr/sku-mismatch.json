@@ -1,0 +1,162 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "sku-mismatch",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 11595486995918890608,
+    "filename": "sku-mismatch.png"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.0,
+            "t": 615.6666666666666,
+            "r": 437.3333333333333,
+            "b": 583.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "FICTIONAL INVOICE INV-5",
+      "text": "FICTIONAL INVOICE INV-5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 37.333333333333336,
+            "t": 492.33333333333337,
+            "r": 697.6666666666666,
+            "b": 464.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Supplier: S1 Purchase order: PO-4",
+      "text": "Supplier: S1 Purchase order: PO-4"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 37.666666666666664,
+            "t": 370.3333333333333,
+            "r": 592.3333333333334,
+            "b": 339.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Item / SKU: CAB-2 Quantity: 5",
+      "text": "Item / SKU: CAB-2 Quantity: 5"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.333333333333336,
+            "t": 243.66666666666669,
+            "r": 678.0,
+            "b": 215.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Unit price (USD): 20.00 Total (USD}: 100.00",
+      "text": "Unit price (USD): 20.00 Total (USD}: 100.00"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 950.0,
+        "height": 650.0
+      },
+      "page_no": 1
+    }
+  }
+}

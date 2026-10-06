@@ -1,0 +1,68 @@
+{
+  "scope": "Submission index; configurations describe specific historical runs, not a forced current environment model",
+  "credentials": "omitted; live mode uses user-supplied GEMINI_MODEL and GEMINI_API_KEY",
+  "current_demo": {
+    "mode": "parser",
+    "dataset": "demo-six-parser",
+    "evidence": "demo/observed.json",
+    "tests": {
+      "count": 139,
+      "seconds": 21.559,
+      "exit_code": 0
+    },
+    "overcharge_cents": 4000
+  },
+  "genuine_original_four_replay": {
+    "mode": "replay",
+    "configurations": [
+      {
+        "provider": "google-gemini",
+        "api": "models.generate_content",
+        "requested_model": "gemini-3.1-flash-lite",
+        "prompt_version": "invoice-gemini-v1",
+        "schema_version": "invoice-fields-issues-v1",
+        "prompt_sha256": "8dd01c7a040af46caf399c8f2d125d9647581c54783d5a20ec2ddd2524079668",
+        "schema_sha256": "e24b73c33a715557e6d8f06054185812330c87949c1a4130ad48260c5ca4922e",
+        "generation_settings": {
+          "temperature": 0,
+          "max_output_tokens": 4096,
+          "candidate_count": 1,
+          "response_mime_type": "application/json"
+        },
+        "transport": {
+          "timeout_ms": 30000,
+          "max_attempts": 3,
+          "sdk_attempts": 1,
+          "max_retry_wait_seconds": 30
+        }
+      }
+    ],
+    "returned_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "evidence": "demo/gemini-four-verification.json",
+    "captures": "demo/captures",
+    "network_requests": 0,
+    "new_case_captures": "not available"
+  },
+  "sdk": {
+    "name": "google-genai",
+    "tested_version": "2.28.0"
+  },
+  "historical_runs": [
+    {
+      "path": "ai-workflow/history/application-extraction-earlier.json",
+      "meaning": "Earlier extraction verification: requested/returned gemini-3.8-flash; 55 tests at that stage. Retained verbatim, not current demo results."
+    }
+  ],
+  "live_six_invoice_verification": "not performed",
+  "discrepancy_notes": {
+    "configuration_source": "app/discrepancy_notes.py",
+    "live_model": "caller configuration; no model inferred from extraction replay",
+    "evidence": "NOTES_README.md",
+    "prompts": [
+      "prompts/discrepancy_note_v1.txt",
+      "prompts/extract_invoice.txt"
+    ]
+  }
+}

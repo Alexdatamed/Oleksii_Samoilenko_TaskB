@@ -1,0 +1,42 @@
+[
+  {
+    "id": "zero-quantity",
+    "args": [
+      0,
+      0
+    ],
+    "expected": 0
+  },
+  {
+    "id": "ordinary",
+    "args": [
+      1000,
+      2
+    ],
+    "expected": 500
+  },
+  {
+    "id": "rounding",
+    "args": [
+      1001,
+      2
+    ],
+    "expected": 501
+  },
+  {
+    "id": "zero-total",
+    "args": [
+      0,
+      4
+    ],
+    "expected": 0
+  },
+  {
+    "id": "single",
+    "args": [
+      1999,
+      1
+    ],
+    "expected": 1999
+  }
+]

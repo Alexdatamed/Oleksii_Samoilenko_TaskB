@@ -1,0 +1,60 @@
+{
+  "file_id": "0002",
+  "original_filename": "missing-reference.png",
+  "mode": "replay",
+  "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\e76979f6188b45e1bbacbdd80983a7a8\\ocr\\0002.md",
+  "image_sha256": "54675ae6c067b8b9c00825c43692f4e408de546aadf0cce04fa217f3b73be7ef",
+  "status": "issues",
+  "fields": {
+    "file_id": "0002",
+    "invoice_number": "INV-3",
+    "supplier_id": "S1",
+    "po_id": null,
+    "sku": "CAB-1",
+    "quantity": 5,
+    "unit_price_cents": 2000,
+    "total_cents": 10000
+  },
+  "issues": [
+    {
+      "field": "po_id",
+      "code": "missing",
+      "message": "Purchase order is missing from the document.",
+      "raw_values": [
+        "(missing)"
+      ]
+    }
+  ],
+  "metadata": {
+    "ocr_sha256": "75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a",
+    "capture": "75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a/20261006T113130906305Z_ce70994df9914f2d97df5c757214b78f.capture.json",
+    "origin": "real_gemini",
+    "configuration_fingerprint": "5bf02fce1c26d09580ede440cd61d07f4b9681cd5239e74e2ddbaa024a78b0b1",
+    "requested_model": "gemini-3.1-flash-lite",
+    "returned_model": "gemini-3.1-flash-lite",
+    "sdk_version": "2.28.0",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 153,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 427,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 427
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 580,
+      "traffic_type": null
+    },
+    "finish_reason": "STOP",
+    "attempts": 1
+  },
+  "error": null,
+  "image_reference": "0002.png",
+  "duration_seconds": 0.02
+}

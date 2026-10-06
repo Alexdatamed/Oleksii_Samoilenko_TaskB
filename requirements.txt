@@ -1,0 +1,14 @@
+# Standard Docling image pipeline with English EasyOCR (CPU).
+docling[easyocr]==2.134.0
+easyocr==1.7.2
+pydantic==2.13.5  # Shared invoice extraction schema (v2 API).
+google-genai==2.28.0
+python-dotenv==1.2.4
+
+# Local review application (tested versions).
+fastapi==0.142.2
+gradio==6.29.1
+uvicorn==0.54.0
+python-multipart==0.0.32
+httpx==0.28.1  # Offline API TestClient.
+Pillow==12.3.0  # Verify uploaded image bytes.

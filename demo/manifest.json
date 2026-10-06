@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "dataset": "demo-six-parser",
+  "extraction_mode": "parser",
+  "effective_processing_order": [
+    "clean",
+    "duplicate",
+    "missing-reference",
+    "quantity-mismatch",
+    "sku-mismatch",
+    "wrong-price"
+  ],
+  "references": "demo/references.json",
+  "references_sha256": "bb0b0c3ed0326b9138ce07f62d5171ede17c6a077c7efa9b9f98388d3c8cda2b",
+  "files": [
+    {
+      "file_id": "clean",
+      "image": "demo/images/clean.png",
+      "original_image": "client-ai-starter-pack/tasks/invoices/images/clean.png",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "fixture_kind": "fictional invoice",
+      "layout_source": "supplied"
+    },
+    {
+      "file_id": "duplicate",
+      "image": "demo/images/duplicate.png",
+      "original_image": "client-ai-starter-pack/tasks/invoices/images/duplicate.png",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "fixture_kind": "fictional invoice",
+      "layout_source": "supplied"
+    },
+    {
+      "file_id": "missing-reference",
+      "image": "demo/images/missing-reference.png",
+      "original_image": "client-ai-starter-pack/tasks/invoices/images/missing-reference.png",
+      "image_sha256": "54675ae6c067b8b9c00825c43692f4e408de546aadf0cce04fa217f3b73be7ef",
+      "fixture_kind": "fictional invoice",
+      "layout_source": "supplied"
+    },
+    {
+      "file_id": "quantity-mismatch",
+      "image": "demo/images/quantity-mismatch.png",
+      "original_image": "demo/additional/images/quantity-mismatch.png",
+      "image_sha256": "70a93f2167025159bfcd61d258a3588501a069dc14536c572280fabb0efc6bb6",
+      "fixture_kind": "fictional invoice",
+      "layout_source": "additional"
+    },
+    {
+      "file_id": "sku-mismatch",
+      "image": "demo/images/sku-mismatch.png",
+      "original_image": "demo/additional/images/sku-mismatch.png",
+      "image_sha256": "5f3d5a81cdf6dd6be0b676c9002853fe589bd13d103b173fa0eb71fcbd682670",
+      "fixture_kind": "fictional invoice",
+      "layout_source": "additional"
+    },
+    {
+      "file_id": "wrong-price",
+      "image": "demo/images/wrong-price.png",
+      "original_image": "client-ai-starter-pack/tasks/invoices/images/wrong-price.png",
+      "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+      "fixture_kind": "fictional invoice",
+      "layout_source": "supplied"
+    }
+  ],
+  "application_configuration": {
+    "db": "demo/invoices.sqlite3",
+    "references": "demo/references.json",
+    "image_dir": "demo/images",
+    "runtime_dir": "demo/review",
+    "capture_dir": "demo/captures"
+  },
+  "evidence_policy": "Fictional source images; actual saved OCR and actual parser outputs. No provider responses are fabricated."
+}

@@ -1,0 +1,24 @@
+{
+  "mode": "parser",
+  "source": "demo/runs/20261006T161200Z_c079ec7b/ocr/duplicate.md",
+  "file_id": "duplicate",
+  "status": "success",
+  "fields": {
+    "file_id": "duplicate",
+    "invoice_number": "INV-1",
+    "supplier_id": "S1",
+    "po_id": "PO-1",
+    "sku": "CAB-1",
+    "quantity": 5,
+    "unit_price_cents": 2000,
+    "total_cents": 10000
+  },
+  "issues": [],
+  "metadata": {
+    "ocr_sha256": "a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc"
+  },
+  "error": null,
+  "duration_seconds": 0.0,
+  "image_reference": "duplicate.png",
+  "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6"
+}

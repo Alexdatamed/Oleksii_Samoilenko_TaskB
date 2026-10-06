@@ -1,0 +1,25 @@
+{
+  "file_id": "0003",
+  "original_filename": "wrong-price.png",
+  "mode": "parser",
+  "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\d5b15c9fa4d34715a062f511c59cc195\\ocr\\0003.md",
+  "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+  "status": "success",
+  "fields": {
+    "file_id": "0003",
+    "invoice_number": "INV-2",
+    "supplier_id": "S1",
+    "po_id": "PO-2",
+    "sku": "CAB-1",
+    "quantity": 5,
+    "unit_price_cents": 2400,
+    "total_cents": 12000
+  },
+  "issues": [],
+  "metadata": {
+    "ocr_sha256": "b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74"
+  },
+  "error": null,
+  "image_reference": "0003.png",
+  "duration_seconds": 31.922
+}

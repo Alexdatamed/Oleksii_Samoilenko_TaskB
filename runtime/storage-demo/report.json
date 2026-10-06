@@ -1,0 +1,13 @@
+{
+  "provenance": "synthetic correction demo, never a real Gemini mistake",
+  "invoice_id": "5016cc13-20cd-550a-ba97-533057950917",
+  "expected_cents": 10000,
+  "before_billed_cents": 13000,
+  "before_difference_cents": 3000,
+  "after_billed_cents": 12000,
+  "after_difference_cents": 2000,
+  "original_evidence_unchanged": true,
+  "restart_verified": true,
+  "history_count": 1,
+  "review_state": "corrected"
+}

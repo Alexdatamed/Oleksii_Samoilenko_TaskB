@@ -1,0 +1,46 @@
+{
+  "offline_tests": {
+    "passed": 114,
+    "seconds": 5.079,
+    "exit_code": 0
+  },
+  "browser_checked": true,
+  "browser_checks": [
+    "summary cards and exact dollar strings",
+    "row selection",
+    "readable comparison and source reference IDs",
+    "excess precision rejected",
+    "valid USD correction refreshed queue, totals and history",
+    "empty filter clears details and disables correction",
+    "four real replay images plus labeled synthetic image failure",
+    "progress and per-file outcome tables",
+    "processing failure disables editing",
+    "other invoice duplicate status recalculated",
+    "synthetic correction label",
+    "corrected UTF-8 punctuation"
+  ],
+  "protected_files_unchanged": 67,
+  "original_database_history_unchanged": true,
+  "real_ocr_or_new_live_gemini_requests": false,
+  "artificial_edits_scope": "isolated smoke-test database only",
+  "batch_summary_after_synthetic_identity_correction": {
+    "dataset": "ui-replay-redesign-smoke",
+    "dataset_id": "589981e8-c72e-4500-ad5f-f1aabea9fba9",
+    "mode": "replay",
+    "total_invoices": 5,
+    "counts_by_status": {
+      "reconciled": 2,
+      "discrepant": 1,
+      "duplicate": 0,
+      "unresolved": 1
+    },
+    "processing_errors": 1,
+    "current_extraction_issue_invoices": 1,
+    "overcharge_cents": 2000
+  },
+  "limitations": [
+    "Desktop browser verified; mobile layout not separately tested.",
+    "USD edits accept plain signed numbers without dollar signs or grouping commas.",
+    "Gradio built-in transient loading announcements follow the browser locale; application labels/messages are English."
+  ]
+}

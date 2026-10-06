@@ -1,0 +1,24 @@
+{
+  "mode": "parser",
+  "source": "demo/runs/20261006T161200Z_c079ec7b/ocr/quantity-mismatch.md",
+  "file_id": "quantity-mismatch",
+  "status": "success",
+  "fields": {
+    "file_id": "quantity-mismatch",
+    "invoice_number": "INV-4",
+    "supplier_id": "S1",
+    "po_id": "PO-3",
+    "sku": "CAB-1",
+    "quantity": 6,
+    "unit_price_cents": 2000,
+    "total_cents": 12000
+  },
+  "issues": [],
+  "metadata": {
+    "ocr_sha256": "436863bcd362def761858ebb159a688cc0cc4f12a7cd6cf9ce5e2b7cc5d01e20"
+  },
+  "error": null,
+  "duration_seconds": 0.0,
+  "image_reference": "quantity-mismatch.png",
+  "image_sha256": "70a93f2167025159bfcd61d258a3588501a069dc14536c572280fabb0efc6bb6"
+}

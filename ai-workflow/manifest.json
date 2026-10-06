@@ -1,0 +1,249 @@
+{
+  "template": false,
+  "categories": {
+    "development_tools_and_models": {
+      "status": "not-exportable",
+      "files": [
+        "ai-workflow/README.md"
+      ],
+      "notes": "Codex desktop used; GPT-6 session family, exact model/build/settings unavailable."
+    },
+    "plugins_and_extensions": {
+      "status": "not-exportable",
+      "files": [
+        "ai-workflow/README.md"
+      ],
+      "notes": "Host app/browser tools used; exact installed versions unavailable."
+    },
+    "application_models_and_parameters": {
+      "status": "used",
+      "files": [
+        "ai_configuration_manifest.json",
+        "requirements.txt",
+        "app/llm_extraction.py",
+        "app/discrepancy_notes.py"
+      ],
+      "notes": "Genuine replay model/settings recorded; live model user-configurable."
+    },
+    "skills": {
+      "status": "used",
+      "files": [
+        "client-ai-starter-pack/skills/generate-assignment-data/SKILL.md"
+      ],
+      "notes": "Supplied fixture skill; no custom skills."
+    },
+    "agent_instructions_and_subagents": {
+      "status": "used",
+      "files": [
+        "ai-workflow/README.md"
+      ],
+      "notes": "Host instructions sanitized in README; no subagents in current stage, earlier history not exportable."
+    },
+    "hooks_and_scripts": {
+      "status": "not-used",
+      "files": [],
+      "notes": "No custom AI hooks; application runners are ordinary scripts/."
+    },
+    "prompts_and_rules": {
+      "status": "used",
+      "files": [
+        "prompts/",
+        "app/schemas.py",
+        "client-ai-starter-pack/tasks/invoices/domain.md"
+      ],
+      "notes": "Prompts, schema and fictional rules retained."
+    },
+    "tool_and_mcp_settings": {
+      "status": "not-exportable",
+      "files": [
+        "ai-workflow/README.md"
+      ],
+      "notes": "Host-managed tools; no project MCP settings or personal config copied."
+    },
+    "permissions_and_environment_names": {
+      "status": "redacted",
+      "files": [
+        ".env.example",
+        ".gitignore",
+        "ai-workflow/README.md"
+      ],
+      "notes": "Credential values and machine paths omitted; applicable permissions described."
+    }
+  },
+  "configuration_records": [
+    {
+      "name": "ai-workflow/README.md",
+      "category": "development_tools_and_models",
+      "original_path_or_scope": "ai-workflow/README.md",
+      "saved_path": "ai-workflow/README.md",
+      "status": "not-exportable",
+      "version_or_commit": "2110955ff7680894aeedff001ea2b597ad5dc75769e1cf562a758694d5dba66c",
+      "used_during": "Task B development/submission",
+      "purpose": "Codex desktop used; GPT-6 session family, exact model/build/settings unavailable.",
+      "redactions": []
+    },
+    {
+      "name": "ai-workflow/README.md",
+      "category": "plugins_and_extensions",
+      "original_path_or_scope": "ai-workflow/README.md",
+      "saved_path": "ai-workflow/README.md",
+      "status": "not-exportable",
+      "version_or_commit": "2110955ff7680894aeedff001ea2b597ad5dc75769e1cf562a758694d5dba66c",
+      "used_during": "Task B development/submission",
+      "purpose": "Host app/browser tools used; exact installed versions unavailable.",
+      "redactions": []
+    },
+    {
+      "name": "ai_configuration_manifest.json",
+      "category": "application_models_and_parameters",
+      "original_path_or_scope": "ai_configuration_manifest.json",
+      "saved_path": "ai_configuration_manifest.json",
+      "status": "used",
+      "version_or_commit": "39154395f65b8a53cfda987efd8369200ac41c1beeae76fc7785fa7a4543de3b",
+      "used_during": "Task B development/submission",
+      "purpose": "Genuine replay model/settings recorded; live model user-configurable.",
+      "redactions": []
+    },
+    {
+      "name": "requirements.txt",
+      "category": "application_models_and_parameters",
+      "original_path_or_scope": "requirements.txt",
+      "saved_path": "requirements.txt",
+      "status": "used",
+      "version_or_commit": "ffe7560ef90d284a6179f266af1e5f6b8b43f32b42f042c4e14358473cf5f0ba",
+      "used_during": "Task B development/submission",
+      "purpose": "Genuine replay model/settings recorded; live model user-configurable.",
+      "redactions": []
+    },
+    {
+      "name": "app/llm_extraction.py",
+      "category": "application_models_and_parameters",
+      "original_path_or_scope": "app/llm_extraction.py",
+      "saved_path": "app/llm_extraction.py",
+      "status": "used",
+      "version_or_commit": "474b00c30cbe52a5c59b584bb9a8b6c3965d31cbffe155044b78483d81367bcf",
+      "used_during": "Task B development/submission",
+      "purpose": "Genuine replay model/settings recorded; live model user-configurable.",
+      "redactions": []
+    },
+    {
+      "name": "app/discrepancy_notes.py",
+      "category": "application_models_and_parameters",
+      "original_path_or_scope": "app/discrepancy_notes.py",
+      "saved_path": "app/discrepancy_notes.py",
+      "status": "used",
+      "version_or_commit": "7be90f7a6a030e809db25d32aa29b108e37a55a9d684e83ddfdf4177e000d8a2",
+      "used_during": "Task B development/submission",
+      "purpose": "Genuine replay model/settings recorded; live model user-configurable.",
+      "redactions": []
+    },
+    {
+      "name": "client-ai-starter-pack/skills/generate-assignment-data/SKILL.md",
+      "category": "skills",
+      "original_path_or_scope": "client-ai-starter-pack/skills/generate-assignment-data/SKILL.md",
+      "saved_path": "client-ai-starter-pack/skills/generate-assignment-data/SKILL.md",
+      "status": "used",
+      "version_or_commit": "bebf0e0b9e1011faefc45f8e43b446e5baca3c759761d4cf9fcebc924d7f0a70",
+      "used_during": "Task B development/submission",
+      "purpose": "Supplied fixture skill; no custom skills.",
+      "redactions": []
+    },
+    {
+      "name": "ai-workflow/README.md",
+      "category": "agent_instructions_and_subagents",
+      "original_path_or_scope": "ai-workflow/README.md",
+      "saved_path": "ai-workflow/README.md",
+      "status": "used",
+      "version_or_commit": "2110955ff7680894aeedff001ea2b597ad5dc75769e1cf562a758694d5dba66c",
+      "used_during": "Task B development/submission",
+      "purpose": "Host instructions sanitized in README; no subagents in current stage, earlier history not exportable.",
+      "redactions": []
+    },
+    {
+      "name": "prompts/",
+      "category": "prompts_and_rules",
+      "original_path_or_scope": "prompts/",
+      "saved_path": "prompts/",
+      "status": "used",
+      "version_or_commit": "directory; individual versions retained in submitted files",
+      "used_during": "Task B development/submission",
+      "purpose": "Prompts, schema and fictional rules retained.",
+      "redactions": []
+    },
+    {
+      "name": "app/schemas.py",
+      "category": "prompts_and_rules",
+      "original_path_or_scope": "app/schemas.py",
+      "saved_path": "app/schemas.py",
+      "status": "used",
+      "version_or_commit": "dbae1861f9f5830889ae1be4c598db7432f46e1c6a5b72172cd153d15fdac09b",
+      "used_during": "Task B development/submission",
+      "purpose": "Prompts, schema and fictional rules retained.",
+      "redactions": []
+    },
+    {
+      "name": "client-ai-starter-pack/tasks/invoices/domain.md",
+      "category": "prompts_and_rules",
+      "original_path_or_scope": "client-ai-starter-pack/tasks/invoices/domain.md",
+      "saved_path": "client-ai-starter-pack/tasks/invoices/domain.md",
+      "status": "used",
+      "version_or_commit": "9e4f23a5e5f4b52033ab7f874c3b154c29b1ad09d737c6a116e4c93171c69ffa",
+      "used_during": "Task B development/submission",
+      "purpose": "Prompts, schema and fictional rules retained.",
+      "redactions": []
+    },
+    {
+      "name": "ai-workflow/README.md",
+      "category": "tool_and_mcp_settings",
+      "original_path_or_scope": "ai-workflow/README.md",
+      "saved_path": "ai-workflow/README.md",
+      "status": "not-exportable",
+      "version_or_commit": "2110955ff7680894aeedff001ea2b597ad5dc75769e1cf562a758694d5dba66c",
+      "used_during": "Task B development/submission",
+      "purpose": "Host-managed tools; no project MCP settings or personal config copied.",
+      "redactions": []
+    },
+    {
+      "name": ".env.example",
+      "category": "permissions_and_environment_names",
+      "original_path_or_scope": ".env.example",
+      "saved_path": ".env.example",
+      "status": "redacted",
+      "version_or_commit": "7fdb71d5d840a373604299e2a9298b3d107de899a4beb71be16b35cfc02f61cf",
+      "used_during": "Task B development/submission",
+      "purpose": "Credential values and machine paths omitted; applicable permissions described.",
+      "redactions": [
+        "credentials and personal host paths omitted"
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "category": "permissions_and_environment_names",
+      "original_path_or_scope": ".gitignore",
+      "saved_path": ".gitignore",
+      "status": "redacted",
+      "version_or_commit": "68c392b82ee7273b4f051e37184aea746aa31d03e52f5908117c859f13551d78",
+      "used_during": "Task B development/submission",
+      "purpose": "Credential values and machine paths omitted; applicable permissions described.",
+      "redactions": [
+        "credentials and personal host paths omitted"
+      ]
+    },
+    {
+      "name": "ai-workflow/README.md",
+      "category": "permissions_and_environment_names",
+      "original_path_or_scope": "ai-workflow/README.md",
+      "saved_path": "ai-workflow/README.md",
+      "status": "redacted",
+      "version_or_commit": "2110955ff7680894aeedff001ea2b597ad5dc75769e1cf562a758694d5dba66c",
+      "used_during": "Task B development/submission",
+      "purpose": "Credential values and machine paths omitted; applicable permissions described.",
+      "redactions": [
+        "credentials and personal host paths omitted"
+      ]
+    }
+  ],
+  "replay_command": "python scripts/run_extraction.py --mode replay --input-dir runtime/ocr --output-dir demo/replay-new --replay-dir demo/captures",
+  "workflow_example_path": "ai-workflow/README.md",
+  "historical_snapshot": "ai-workflow/history/application-extraction-earlier.json"
+}

@@ -1,0 +1,28 @@
+{
+  "verification": "Browser presentation smoke test; synthetic correction in isolated database only",
+  "tests": {
+    "count": 117,
+    "seconds": 5.291,
+    "result": "OK"
+  },
+  "browser_checks": [
+    "Clean and discrepant invoice selection",
+    "Findings and messages above image",
+    "Six comparison rows; exact known amounts",
+    "Default collapsed original/history accordions",
+    "Empty history hides table",
+    "Correction history appears after saving",
+    "Original extraction preserved after correction",
+    "Summary and queue refresh after correction",
+    "Empty status filter disables corrections",
+    "Selecting clean invoice clears history and refreshes original values",
+    "Green/orange/red/gray badges visually checked"
+  ],
+  "protected_files_unchanged": 67,
+  "original_supported_overcharge_cents": 2000,
+  "smoke_supported_overcharge_cents": 0,
+  "limitations": [
+    "Queue status cells remain plain text to preserve safe native dataframe behavior",
+    "Mobile layout not separately tested"
+  ]
+}

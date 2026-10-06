@@ -1,0 +1,14 @@
+{
+  "offline_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 97,
+    "seconds": 3.885,
+    "exit_code": 0
+  },
+  "new_live_requests": 0,
+  "protected_files_unchanged": 67,
+  "real_parser_report": "parser-verification.json",
+  "genuine_replay_report": "replay-verification.json",
+  "browser_report": "ui-verification.json",
+  "server_stopped_after_smoke": true
+}

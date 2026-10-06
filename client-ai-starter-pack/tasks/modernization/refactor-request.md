@@ -1,0 +1,1 @@
+Refactor order_total by extracting named rules and constants. Preserve the function signature, input/output behavior, discount rounding, and delivery-threshold order. Change only a separate copy of baseline.py.

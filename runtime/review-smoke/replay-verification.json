@@ -1,0 +1,46 @@
+{
+  "mode": "replay",
+  "genuine_captures": true,
+  "credentials_absent": true,
+  "gemini_client_calls": 0,
+  "ocr_calls": 0,
+  "files": [
+    {
+      "source": "clean.png",
+      "status": "success",
+      "error": null
+    },
+    {
+      "source": "duplicate.png",
+      "status": "success",
+      "error": null
+    },
+    {
+      "source": "missing-reference.png",
+      "status": "issues",
+      "error": null
+    },
+    {
+      "source": "wrong-price.png",
+      "status": "success",
+      "error": null
+    }
+  ],
+  "summary": {
+    "dataset": "real-upload-replay-smoke",
+    "dataset_id": "e79093ba-b4d2-4e81-8c7b-6d2f9c5c90f9",
+    "mode": "replay",
+    "total_invoices": 4,
+    "counts_by_status": {
+      "reconciled": 1,
+      "discrepant": 1,
+      "duplicate": 1,
+      "unresolved": 1
+    },
+    "processing_errors": 0,
+    "current_extraction_issue_invoices": 1,
+    "overcharge_cents": 2000
+  },
+  "expected_seed_comparison": "all four match",
+  "independent_seed_fields": "all four match"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "event_id": "EV1",
+    "function": "unit_price",
+    "input": {
+      "total_cents": 0,
+      "quantity": 0
+    },
+    "error": "ZeroDivisionError",
+    "source": "baseline.py:4"
+  },
+  {
+    "event_id": "EV2",
+    "function": "unit_price",
+    "input": {
+      "total_cents": 0,
+      "quantity": 0
+    },
+    "error": "ZeroDivisionError",
+    "source": "baseline.py:4"
+  },
+  {
+    "event_id": "EV3",
+    "function": "unit_price",
+    "input": {
+      "total_cents": -1,
+      "quantity": 1
+    },
+    "error": "ValueError",
+    "source": "baseline.py:3",
+    "note": "Expected rejection of an invalid input; unrelated to EV1."
+  }
+]

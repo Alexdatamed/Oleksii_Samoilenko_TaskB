@@ -1,0 +1,117 @@
+{
+  "documents": [
+    {
+      "id": "EXPORT-v1",
+      "version": 1,
+      "date": "2026-01-01",
+      "status": "superseded",
+      "supersedes": null,
+      "passages": [
+        {
+          "id": "EXPORT-v1:p1",
+          "text": "CSV exports are available on every plan."
+        }
+      ]
+    },
+    {
+      "id": "EXPORT-v2",
+      "version": 2,
+      "date": "2026-08-01",
+      "status": "current",
+      "supersedes": "EXPORT-v1",
+      "passages": [
+        {
+          "id": "EXPORT-v2:p1",
+          "text": "CSV exports are available on paid plans only. Free-plan users cannot export CSV."
+        }
+      ]
+    },
+    {
+      "id": "SUPPORT-v1",
+      "version": 1,
+      "date": "2026-08-01",
+      "status": "current",
+      "supersedes": null,
+      "passages": [
+        {
+          "id": "SUPPORT-v1:p1",
+          "text": "Email support is available Monday to Friday, 09:00 to 17:00 UTC. Live chat is not offered."
+        }
+      ]
+    },
+    {
+      "id": "ACCESS-v1",
+      "version": 1,
+      "date": "2026-08-01",
+      "status": "current",
+      "supersedes": null,
+      "passages": [
+        {
+          "id": "ACCESS-v1:p1",
+          "text": "Users can sign in with email and password. Account owners can invite team members."
+        }
+      ]
+    },
+    {
+      "id": "BILLING-v1",
+      "version": 1,
+      "date": "2026-08-01",
+      "status": "current",
+      "supersedes": null,
+      "passages": [
+        {
+          "id": "BILLING-v1:p1",
+          "text": "Paid subscriptions are billed monthly in USD. Account owners can download billing invoices."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "topic": "exports",
+      "text": "Can free-plan users export CSV?"
+    },
+    {
+      "id": "Q2",
+      "topic": "exports",
+      "text": "Is JSON export available?"
+    },
+    {
+      "id": "Q3",
+      "topic": "support",
+      "text": "When is email support available?"
+    },
+    {
+      "id": "Q4",
+      "topic": "support",
+      "text": "Is live chat offered?"
+    },
+    {
+      "id": "Q5",
+      "topic": "access",
+      "text": "How do users sign in?"
+    },
+    {
+      "id": "Q6",
+      "topic": "access",
+      "text": "Who can invite team members?"
+    },
+    {
+      "id": "Q7",
+      "topic": "billing",
+      "text": "How often are subscriptions billed?"
+    },
+    {
+      "id": "Q8",
+      "topic": "billing",
+      "text": "Who can download billing invoices?"
+    }
+  ],
+  "owners": {
+    "exports": "Product reviewer",
+    "support": "Support reviewer",
+    "access": "Product reviewer",
+    "billing": "Billing reviewer"
+  }
+}

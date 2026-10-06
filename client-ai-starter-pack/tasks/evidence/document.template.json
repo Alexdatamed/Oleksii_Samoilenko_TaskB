@@ -1,0 +1,13 @@
+{
+  "id": "REPLACE_DOCUMENT_ID",
+  "version": 1,
+  "date": "2026-08-01",
+  "status": "current",
+  "supersedes": null,
+  "passages": [
+    {
+      "id": "REPLACE_DOCUMENT_ID:p1",
+      "text": "REPLACE_WITH_RULE_CONSISTENT_TEXT"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "byte-identical copies of four pre-existing genuine responses; no newly generated response",
+  "files": [
+    {
+      "file_id": "clean",
+      "origin": "real_gemini",
+      "source": "runtime/extraction/captures/a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc/20261006T113129150488Z_95970d45a85a40f1813eaad793e2febe.capture.json",
+      "capture": "demo/captures/a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc/20261006T113129150488Z_95970d45a85a40f1813eaad793e2febe.capture.json",
+      "sha256": "672e0ddf3cbad404fb7892acebb461e1ee1a5da9a2aed8309faf2974944b57b2",
+      "requested_model": "gemini-3.1-flash-lite",
+      "compatibility": "Validated with real ReplayExtractor against unchanged actual OCR and current extraction configuration; no API request."
+    },
+    {
+      "file_id": "duplicate",
+      "origin": "real_gemini",
+      "source": "runtime/extraction/captures/a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc/20261006T113129150488Z_95970d45a85a40f1813eaad793e2febe.capture.json",
+      "capture": "demo/captures/a05ffb8138aaf54bebfabb3a7a3d825fecaa8042c1e00bea490762b13eacc4bc/20261006T113129150488Z_95970d45a85a40f1813eaad793e2febe.capture.json",
+      "sha256": "672e0ddf3cbad404fb7892acebb461e1ee1a5da9a2aed8309faf2974944b57b2",
+      "requested_model": "gemini-3.1-flash-lite",
+      "compatibility": "Validated with real ReplayExtractor against unchanged actual OCR and current extraction configuration; no API request."
+    },
+    {
+      "file_id": "missing-reference",
+      "origin": "real_gemini",
+      "source": "runtime/extraction/captures/75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a/20261006T113130906305Z_ce70994df9914f2d97df5c757214b78f.capture.json",
+      "capture": "demo/captures/75ef47a37df7e3880463507a87cc067c305316ccf11d6c54860427a093abce0a/20261006T113130906305Z_ce70994df9914f2d97df5c757214b78f.capture.json",
+      "sha256": "ba725fe763b5209db86a632bfa30d147c536800015b972b9d8af272de3b9623f",
+      "requested_model": "gemini-3.1-flash-lite",
+      "compatibility": "Validated with real ReplayExtractor against unchanged actual OCR and current extraction configuration; no API request."
+    },
+    {
+      "file_id": "wrong-price",
+      "origin": "real_gemini",
+      "source": "runtime/extraction/captures/b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74/20261006T113132937304Z_82b341debcf14350a848e8b021f07594.capture.json",
+      "capture": "demo/captures/b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74/20261006T113132937304Z_82b341debcf14350a848e8b021f07594.capture.json",
+      "sha256": "f1b64292ab0cf2eea88d4ecdde07d2875caa5b7e757c0a762af207f7db61bd6f",
+      "requested_model": "gemini-3.1-flash-lite",
+      "compatibility": "Validated with real ReplayExtractor against unchanged actual OCR and current extraction configuration; no API request."
+    }
+  ],
+  "additional_cases": "No genuine captures for quantity-mismatch or sku-mismatch."
+}

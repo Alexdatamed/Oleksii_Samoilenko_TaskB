@@ -1,0 +1,16 @@
+{
+  "kind": "actual replay of pre-existing genuine Gemini captures; no new provider response",
+  "files": 4,
+  "processing_errors": 0,
+  "extraction_issues": 1,
+  "sdk_client_calls": 0,
+  "dotenv_calls": 0,
+  "ocr_calls": 0,
+  "origins": [
+    "real_gemini"
+  ],
+  "requested_models": [
+    "gemini-3.1-flash-lite"
+  ],
+  "independent_original_fields_match": true
+}

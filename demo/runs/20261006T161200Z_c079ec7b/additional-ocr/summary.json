@@ -1,0 +1,34 @@
+{
+  "versions": {
+    "python": "3.12.10",
+    "docling": "2.134.0",
+    "docling-slim": "2.134.0",
+    "docling-core": "2.99.0",
+    "easyocr": "1.7.2",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1"
+  },
+  "configuration": {
+    "pipeline": "StandardPdfPipeline",
+    "format": "IMAGE",
+    "ocr": "EasyOCR",
+    "language": "en",
+    "device": "cpu",
+    "mode": "full_page",
+    "table_structure": false
+  },
+  "files": [
+    {
+      "filename": "quantity-mismatch.png",
+      "success": true,
+      "error": null,
+      "duration_seconds": 49.267
+    },
+    {
+      "filename": "sku-mismatch.png",
+      "success": true,
+      "error": null,
+      "duration_seconds": 32.05
+    }
+  ]
+}

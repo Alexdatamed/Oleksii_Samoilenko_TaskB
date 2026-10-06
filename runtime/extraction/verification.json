@@ -1,0 +1,60 @@
+{
+  "verification": "independent references; production extractors do not read seeds",
+  "modes": {
+    "llm": {
+      "available": 1,
+      "unavailable": [
+        {
+          "file_id": "wrong-price",
+          "error": "Gemini request failed (HTTP 429: quota or rate limit exceeded)"
+        },
+        {
+          "file_id": "duplicate",
+          "error": "Gemini request failed (HTTP 503: provider server error)"
+        },
+        {
+          "file_id": "missing-reference",
+          "error": "Gemini request failed (HTTP 429: quota or rate limit exceeded)"
+        }
+      ],
+      "field_discrepancies": [],
+      "reconciliation": [
+        {
+          "file_id": "clean",
+          "status": "reconciled",
+          "matches_expected": true
+        }
+      ],
+      "partial_overcharge_cents": 0,
+      "full_batch_verified": false
+    },
+    "replay": {
+      "available": 2,
+      "unavailable": [
+        {
+          "file_id": "wrong-price",
+          "error": "No captured Gemini response exists for this OCR content"
+        },
+        {
+          "file_id": "missing-reference",
+          "error": "No captured Gemini response exists for this OCR content"
+        }
+      ],
+      "field_discrepancies": [],
+      "reconciliation": [
+        {
+          "file_id": "clean",
+          "status": "reconciled",
+          "matches_expected": true
+        },
+        {
+          "file_id": "duplicate",
+          "status": "duplicate",
+          "matches_expected": true
+        }
+      ],
+      "partial_overcharge_cents": 0,
+      "full_batch_verified": false
+    }
+  }
+}

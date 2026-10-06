@@ -1,0 +1,29 @@
+{
+  "mode": "llm",
+  "configurations": [
+    {
+      "provider": "google-gemini",
+      "api": "models.generate_content",
+      "requested_model": "gemini-3.1-flash-lite",
+      "prompt_version": "invoice-gemini-v1",
+      "schema_version": "invoice-fields-issues-v1",
+      "prompt_sha256": "8dd01c7a040af46caf399c8f2d125d9647581c54783d5a20ec2ddd2524079668",
+      "schema_sha256": "e24b73c33a715557e6d8f06054185812330c87949c1a4130ad48260c5ca4922e",
+      "generation_settings": {
+        "temperature": 0,
+        "max_output_tokens": 4096,
+        "candidate_count": 1,
+        "response_mime_type": "application/json"
+      },
+      "transport": {
+        "timeout_ms": 30000,
+        "max_attempts": 3,
+        "sdk_attempts": 1,
+        "max_retry_wait_seconds": 30
+      }
+    }
+  ],
+  "returned_models": [
+    "gemini-3.1-flash-lite"
+  ]
+}

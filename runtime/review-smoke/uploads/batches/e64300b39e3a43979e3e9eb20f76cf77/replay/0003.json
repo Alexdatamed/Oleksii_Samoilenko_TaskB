@@ -1,0 +1,51 @@
+{
+  "file_id": "0003",
+  "original_filename": "wrong-price.png",
+  "mode": "replay",
+  "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\review-smoke\\uploads\\batches\\e64300b39e3a43979e3e9eb20f76cf77\\ocr\\0003.md",
+  "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+  "status": "success",
+  "fields": {
+    "file_id": "0003",
+    "invoice_number": "INV-2",
+    "supplier_id": "S1",
+    "po_id": "PO-2",
+    "sku": "CAB-1",
+    "quantity": 5,
+    "unit_price_cents": 2400,
+    "total_cents": 12000
+  },
+  "issues": [],
+  "metadata": {
+    "ocr_sha256": "b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74",
+    "capture": "b0ecfc63f296f2578f7e863104cde3ae386256e93252832ef4fa3dd4cd839f74/20261006T113132937304Z_82b341debcf14350a848e8b021f07594.capture.json",
+    "origin": "real_gemini",
+    "configuration_fingerprint": "5bf02fce1c26d09580ede440cd61d07f4b9681cd5239e74e2ddbaa024a78b0b1",
+    "requested_model": "gemini-3.1-flash-lite",
+    "returned_model": "gemini-3.1-flash-lite",
+    "sdk_version": "2.28.0",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 99,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 427,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 427
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 526,
+      "traffic_type": null
+    },
+    "finish_reason": "STOP",
+    "attempts": 1
+  },
+  "error": null,
+  "image_reference": "0003.png",
+  "duration_seconds": 0.034
+}

@@ -1,0 +1,117 @@
+{
+  "vendors": [
+    {
+      "vendor_id": "V1",
+      "name": "Cedar Office",
+      "address": {
+        "line1": "1 Example Road",
+        "city": "Sampleton",
+        "postal_code": "00100",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "vendor_id": "V2",
+      "name": "Northstar Supplies East",
+      "address": {
+        "line1": "2 Example Road",
+        "city": "Sampleton",
+        "postal_code": "00200",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "vendor_id": "V3",
+      "name": "Northstar Supplies West",
+      "address": {
+        "line1": "3 Example Road",
+        "city": "Sampleton",
+        "postal_code": "00300",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "vendor_id": "V4",
+      "name": "Maple Parts",
+      "address": {
+        "line1": "4 Example Road",
+        "city": "Sampleton",
+        "postal_code": "00400",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "vendor_id": "V5",
+      "name": "Juniper Tools",
+      "address": {
+        "line1": "5 Example Road",
+        "city": "Sampleton",
+        "postal_code": "00500",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "vendor_id": "V6",
+      "name": "Birch Goods",
+      "address": {
+        "line1": "6 Example Road",
+        "city": "Sampleton",
+        "postal_code": "00600",
+        "country": "Exampleland"
+      }
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "R1",
+      "vendor_id": "V1",
+      "address": {
+        "line1": "42 Fiction Lane",
+        "city": "Demo City",
+        "postal_code": "00123",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "request_id": "R2",
+      "vendor_name": "Northstar Supplies",
+      "address": {
+        "line1": "42 Fiction Lane",
+        "city": "Demo City",
+        "postal_code": "00123",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "request_id": "R3",
+      "vendor_id": "V4",
+      "address": {
+        "line1": "42 Fiction Lane",
+        "city": "Demo City",
+        "postal_code": "",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "request_id": "R4",
+      "vendor_id": "V999",
+      "address": {
+        "line1": "42 Fiction Lane",
+        "city": "Demo City",
+        "postal_code": "00123",
+        "country": "Exampleland"
+      }
+    },
+    {
+      "request_id": "R5",
+      "vendor_id": "V6",
+      "address": {
+        "line1": "42 Fiction Lane",
+        "city": "Demo City",
+        "postal_code": "00123",
+        "country": "Exampleland"
+      },
+      "simulate": "fail next save once"
+    }
+  ]
+}

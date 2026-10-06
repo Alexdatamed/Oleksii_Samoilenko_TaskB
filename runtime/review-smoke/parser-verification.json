@@ -1,0 +1,47 @@
+{
+  "mode": "parser",
+  "real_docling_ocr": true,
+  "files": [
+    {
+      "source": "clean.png",
+      "status": "success",
+      "error": null,
+      "duration_seconds": 52.438
+    },
+    {
+      "source": "duplicate.png",
+      "status": "success",
+      "error": null,
+      "duration_seconds": 31.769
+    },
+    {
+      "source": "missing-reference.png",
+      "status": "issues",
+      "error": null,
+      "duration_seconds": 31.519
+    },
+    {
+      "source": "wrong-price.png",
+      "status": "success",
+      "error": null,
+      "duration_seconds": 31.922
+    }
+  ],
+  "summary": {
+    "dataset": "real-upload-parser-smoke",
+    "dataset_id": "fb600805-ca29-4b42-9953-7b1b78648c5f",
+    "mode": "parser",
+    "total_invoices": 4,
+    "counts_by_status": {
+      "reconciled": 1,
+      "discrepant": 1,
+      "duplicate": 1,
+      "unresolved": 1
+    },
+    "processing_errors": 0,
+    "current_extraction_issue_invoices": 1,
+    "overcharge_cents": 2000
+  },
+  "independent_seed_fields": "all four match",
+  "expected_seed_comparison": "all four match"
+}

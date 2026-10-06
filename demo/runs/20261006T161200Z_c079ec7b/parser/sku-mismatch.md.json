@@ -1,0 +1,24 @@
+{
+  "mode": "parser",
+  "source": "demo/runs/20261006T161200Z_c079ec7b/ocr/sku-mismatch.md",
+  "file_id": "sku-mismatch",
+  "status": "success",
+  "fields": {
+    "file_id": "sku-mismatch",
+    "invoice_number": "INV-5",
+    "supplier_id": "S1",
+    "po_id": "PO-4",
+    "sku": "CAB-2",
+    "quantity": 5,
+    "unit_price_cents": 2000,
+    "total_cents": 10000
+  },
+  "issues": [],
+  "metadata": {
+    "ocr_sha256": "0eb2c8f2c2577204ef01ca4c3296e18bc24eb5317dbca56d19afaaf1e05f97fb"
+  },
+  "error": null,
+  "duration_seconds": 0.0,
+  "image_reference": "sku-mismatch.png",
+  "image_sha256": "5f3d5a81cdf6dd6be0b676c9002853fe589bd13d103b173fa0eb71fcbd682670"
+}

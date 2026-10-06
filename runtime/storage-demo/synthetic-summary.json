@@ -1,0 +1,100 @@
+{
+  "mode": "parser",
+  "files": [
+    {
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ocr\\clean.md",
+      "file_id": "clean",
+      "status": "success",
+      "fields": {
+        "file_id": "clean",
+        "invoice_number": "INV-1",
+        "supplier_id": "S1",
+        "po_id": "PO-1",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [],
+      "error": null,
+      "duration_seconds": 0.001
+    },
+    {
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ocr\\duplicate.md",
+      "file_id": "duplicate",
+      "status": "success",
+      "fields": {
+        "file_id": "duplicate",
+        "invoice_number": "INV-1",
+        "supplier_id": "S1",
+        "po_id": "PO-1",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [],
+      "error": null,
+      "duration_seconds": 0.0
+    },
+    {
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ocr\\missing-reference.md",
+      "file_id": "missing-reference",
+      "status": "issues",
+      "fields": {
+        "file_id": "missing-reference",
+        "invoice_number": "INV-3",
+        "supplier_id": "S1",
+        "po_id": null,
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2000,
+        "total_cents": 10000
+      },
+      "issues": [
+        {
+          "field": "po_id",
+          "code": "missing",
+          "message": "Field has no known value",
+          "raw_values": [
+            "(missing)"
+          ]
+        }
+      ],
+      "error": null,
+      "duration_seconds": 0.0
+    },
+    {
+      "mode": "parser",
+      "source": "C:\\Users\\Alex\\Downloads\\client-ai-starter-pack\\runtime\\ocr\\wrong-price.md",
+      "file_id": "wrong-price",
+      "status": "success",
+      "fields": {
+        "file_id": "wrong-price",
+        "invoice_number": "INV-2",
+        "supplier_id": "S1",
+        "po_id": "PO-2",
+        "sku": "CAB-1",
+        "quantity": 5,
+        "unit_price_cents": 2600,
+        "total_cents": 13000
+      },
+      "issues": [
+        {
+          "field": "unit_price_cents",
+          "code": "invalid",
+          "message": "Synthetic manually injected extraction error",
+          "raw_values": [
+            "synthetic error: 26.00 instead of the invoice 24.00"
+          ]
+        }
+      ],
+      "error": null,
+      "duration_seconds": 0.0
+    }
+  ],
+  "provenance": "SYNTHETIC extraction error injected into a parser copy; never a real Gemini mistake"
+}

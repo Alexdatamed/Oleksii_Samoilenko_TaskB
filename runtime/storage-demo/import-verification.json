@@ -1,0 +1,64 @@
+{
+  "network_requests": 0,
+  "imports": {
+    "parser-v1": {
+      "summary": {
+        "dataset": "parser-v1",
+        "dataset_id": "bc0c2c42-c52b-4656-837b-73ad1f4853cb",
+        "mode": "parser",
+        "total_invoices": 4,
+        "counts_by_status": {
+          "reconciled": 1,
+          "discrepant": 1,
+          "duplicate": 1,
+          "unresolved": 1
+        },
+        "processing_errors": 0,
+        "current_extraction_issue_invoices": 1,
+        "overcharge_cents": 2000
+      },
+      "matches_all_expected_results": true,
+      "unavailable_artifacts": {}
+    },
+    "llm-v1": {
+      "summary": {
+        "dataset": "llm-v1",
+        "dataset_id": "eccf9004-2f1c-416c-8556-36dca83119aa",
+        "mode": "llm",
+        "total_invoices": 4,
+        "counts_by_status": {
+          "reconciled": 1,
+          "discrepant": 1,
+          "duplicate": 1,
+          "unresolved": 1
+        },
+        "processing_errors": 0,
+        "current_extraction_issue_invoices": 1,
+        "overcharge_cents": 2000
+      },
+      "matches_all_expected_results": true,
+      "unavailable_artifacts": {}
+    },
+    "replay-v1": {
+      "summary": {
+        "dataset": "replay-v1",
+        "dataset_id": "36a70914-671e-41c2-b41c-ee05f7850eeb",
+        "mode": "replay",
+        "total_invoices": 4,
+        "counts_by_status": {
+          "reconciled": 1,
+          "discrepant": 1,
+          "duplicate": 1,
+          "unresolved": 1
+        },
+        "processing_errors": 0,
+        "current_extraction_issue_invoices": 1,
+        "overcharge_cents": 2000
+      },
+      "matches_all_expected_results": true,
+      "unavailable_artifacts": {}
+    }
+  },
+  "correction_restart_and_reimport_verified": true,
+  "sqlite_version": "3.49.1"
+}

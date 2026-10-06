@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "manifest": {
+    "version": 1,
+    "dataset": "demo-six-parser",
+    "extraction_mode": "parser",
+    "effective_processing_order": [
+      "clean",
+      "duplicate",
+      "missing-reference",
+      "quantity-mismatch",
+      "sku-mismatch",
+      "wrong-price"
+    ],
+    "references": "demo/references.json",
+    "references_sha256": "bb0b0c3ed0326b9138ce07f62d5171ede17c6a077c7efa9b9f98388d3c8cda2b",
+    "files": [
+      {
+        "file_id": "clean",
+        "image": "demo/images/clean.png",
+        "original_image": "client-ai-starter-pack/tasks/invoices/images/clean.png",
+        "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+        "fixture_kind": "fictional invoice",
+        "layout_source": "supplied"
+      },
+      {
+        "file_id": "duplicate",
+        "image": "demo/images/duplicate.png",
+        "original_image": "client-ai-starter-pack/tasks/invoices/images/duplicate.png",
+        "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+        "fixture_kind": "fictional invoice",
+        "layout_source": "supplied"
+      },
+      {
+        "file_id": "missing-reference",
+        "image": "demo/images/missing-reference.png",
+        "original_image": "client-ai-starter-pack/tasks/invoices/images/missing-reference.png",
+        "image_sha256": "54675ae6c067b8b9c00825c43692f4e408de546aadf0cce04fa217f3b73be7ef",
+        "fixture_kind": "fictional invoice",
+        "layout_source": "supplied"
+      },
+      {
+        "file_id": "quantity-mismatch",
+        "image": "demo/images/quantity-mismatch.png",
+        "original_image": "demo/additional/images/quantity-mismatch.png",
+        "image_sha256": "70a93f2167025159bfcd61d258a3588501a069dc14536c572280fabb0efc6bb6",
+        "fixture_kind": "fictional invoice",
+        "layout_source": "additional"
+      },
+      {
+        "file_id": "sku-mismatch",
+        "image": "demo/images/sku-mismatch.png",
+        "original_image": "demo/additional/images/sku-mismatch.png",
+        "image_sha256": "5f3d5a81cdf6dd6be0b676c9002853fe589bd13d103b173fa0eb71fcbd682670",
+        "fixture_kind": "fictional invoice",
+        "layout_source": "additional"
+      },
+      {
+        "file_id": "wrong-price",
+        "image": "demo/images/wrong-price.png",
+        "original_image": "client-ai-starter-pack/tasks/invoices/images/wrong-price.png",
+        "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+        "fixture_kind": "fictional invoice",
+        "layout_source": "supplied"
+      }
+    ],
+    "application_configuration": {
+      "db": "demo/invoices.sqlite3",
+      "references": "demo/references.json",
+      "image_dir": "demo/images",
+      "runtime_dir": "demo/review",
+      "capture_dir": "demo/captures"
+    },
+    "evidence_policy": "Fictional source images; actual saved OCR and actual parser outputs. No provider responses are fabricated."
+  },
+  "evidence": [
+    {
+      "file_id": "clean",
+      "image": "demo/images/clean.png",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "ocr_origin": "reused actual saved Docling OCR",
+      "source_summary": "runtime/ocr/summary.json",
+      "ocr_result": {
+        "filename": "clean.png",
+        "success": true,
+        "error": null,
+        "duration_seconds": 58.555
+      },
+      "artifacts": [
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/clean.md",
+          "sha256": "87547c116d2201c872719d3b4da07e3396e51033ab35e6234979f8ad88ad7f6f",
+          "source": "runtime/ocr/clean.md"
+        },
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/clean.json",
+          "sha256": "ce100d11a4f83fea908f93810155b62b92f7edf75efedb56af8139d75d2e1bfc",
+          "source": "runtime/ocr/clean.json"
+        }
+      ]
+    },
+    {
+      "file_id": "duplicate",
+      "image": "demo/images/duplicate.png",
+      "image_sha256": "dddb26ef0a37bbef0ce06bf2b985c7c2e7115fc13e26e6230c33e66fa77e69c6",
+      "ocr_origin": "reused actual saved Docling OCR",
+      "source_summary": "runtime/ocr/summary.json",
+      "ocr_result": {
+        "filename": "duplicate.png",
+        "success": true,
+        "error": null,
+        "duration_seconds": 21.856
+      },
+      "artifacts": [
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/duplicate.md",
+          "sha256": "87547c116d2201c872719d3b4da07e3396e51033ab35e6234979f8ad88ad7f6f",
+          "source": "runtime/ocr/duplicate.md"
+        },
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/duplicate.json",
+          "sha256": "0839d1f87c5efca8e33be5fc346275c340224cf9aaec1cfb4f3981d9939aee5a",
+          "source": "runtime/ocr/duplicate.json"
+        }
+      ]
+    },
+    {
+      "file_id": "missing-reference",
+      "image": "demo/images/missing-reference.png",
+      "image_sha256": "54675ae6c067b8b9c00825c43692f4e408de546aadf0cce04fa217f3b73be7ef",
+      "ocr_origin": "reused actual saved Docling OCR",
+      "source_summary": "runtime/ocr/summary.json",
+      "ocr_result": {
+        "filename": "missing-reference.png",
+        "success": true,
+        "error": null,
+        "duration_seconds": 21.928
+      },
+      "artifacts": [
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/missing-reference.md",
+          "sha256": "c02f070d45cfeca6a31feab66502596827b3a8829056a13b9da9a9629875d33f",
+          "source": "runtime/ocr/missing-reference.md"
+        },
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/missing-reference.json",
+          "sha256": "cf2e1decfb42f087573b2e24bd31a86823d39508edf3d84dba6489221d60e5a3",
+          "source": "runtime/ocr/missing-reference.json"
+        }
+      ]
+    },
+    {
+      "file_id": "quantity-mismatch",
+      "image": "demo/images/quantity-mismatch.png",
+      "image_sha256": "70a93f2167025159bfcd61d258a3588501a069dc14536c572280fabb0efc6bb6",
+      "ocr_origin": "actual new Docling OCR",
+      "source_summary": "demo/runs/20261006T161200Z_c079ec7b/additional-ocr/summary.json",
+      "ocr_result": {
+        "filename": "quantity-mismatch.png",
+        "success": true,
+        "error": null,
+        "duration_seconds": 49.267
+      },
+      "artifacts": [
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/quantity-mismatch.md",
+          "sha256": "071a2fe11498a81fcca424b8a42d8b5ea656e683f42d5c42f580f06c5754feb9",
+          "source": "demo/runs/20261006T161200Z_c079ec7b/additional-ocr/quantity-mismatch.md"
+        },
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/quantity-mismatch.json",
+          "sha256": "f9f907ff30457c88d57edac1518fc7fd2e4bde2f04037ac536b3873e712e8b7f",
+          "source": "demo/runs/20261006T161200Z_c079ec7b/additional-ocr/quantity-mismatch.json"
+        }
+      ]
+    },
+    {
+      "file_id": "sku-mismatch",
+      "image": "demo/images/sku-mismatch.png",
+      "image_sha256": "5f3d5a81cdf6dd6be0b676c9002853fe589bd13d103b173fa0eb71fcbd682670",
+      "ocr_origin": "actual new Docling OCR",
+      "source_summary": "demo/runs/20261006T161200Z_c079ec7b/additional-ocr/summary.json",
+      "ocr_result": {
+        "filename": "sku-mismatch.png",
+        "success": true,
+        "error": null,
+        "duration_seconds": 32.05
+      },
+      "artifacts": [
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/sku-mismatch.md",
+          "sha256": "fe3874e70b7b86dd768310a29476f809df3a57d55a360297411a1eb9bd1b740e",
+          "source": "demo/runs/20261006T161200Z_c079ec7b/additional-ocr/sku-mismatch.md"
+        },
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/sku-mismatch.json",
+          "sha256": "ec6613642b25ba7dc736b4e6fdb55d4aba395ca9c1d28dd5de66b91d32017e1a",
+          "source": "demo/runs/20261006T161200Z_c079ec7b/additional-ocr/sku-mismatch.json"
+        }
+      ]
+    },
+    {
+      "file_id": "wrong-price",
+      "image": "demo/images/wrong-price.png",
+      "image_sha256": "d86cb325753f8356ec623864cc08feae4fc87e42dd4fc6d40cf8472e2739e993",
+      "ocr_origin": "reused actual saved Docling OCR",
+      "source_summary": "runtime/ocr/summary.json",
+      "ocr_result": {
+        "filename": "wrong-price.png",
+        "success": true,
+        "error": null,
+        "duration_seconds": 22.11
+      },
+      "artifacts": [
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/wrong-price.md",
+          "sha256": "d4b9fe8209dab0e09757d9d4022f941441aa0672e32dd085660e6287dabca8e3",
+          "source": "runtime/ocr/wrong-price.md"
+        },
+        {
+          "path": "demo/runs/20261006T161200Z_c079ec7b/ocr/wrong-price.json",
+          "sha256": "a669d20300e4d01a900a096addad1ca5d25d3db7b8890a725df9ad0239977219",
+          "source": "runtime/ocr/wrong-price.json"
+        }
+      ]
+    }
+  ],
+  "summary": "demo/runs/20261006T161200Z_c079ec7b/parser/summary.json",
+  "summary_sha256": "3eb8a86a86f962a88eb988405dc53781f74cde0468dc9736cd081116ac8ac502",
+  "ocr_dir": "demo/runs/20261006T161200Z_c079ec7b/ocr",
+  "parser_files": [
+    {
+      "path": "demo/runs/20261006T161200Z_c079ec7b/parser/clean.md.json",
+      "sha256": "b5c649f05c6a235df4ae7e83847be9a04b47f7920758259c0915d2032eea2144"
+    },
+    {
+      "path": "demo/runs/20261006T161200Z_c079ec7b/parser/duplicate.md.json",
+      "sha256": "b5b4b7a79d80fc7eaa7e53e3be28ebddb4a9ac4e93bf2723e47603f3a7f6c384"
+    },
+    {
+      "path": "demo/runs/20261006T161200Z_c079ec7b/parser/missing-reference.md.json",
+      "sha256": "d53045463d56c442321ca92dc8fd60f8376a20bc324bc173763848e9ef4bb4dd"
+    },
+    {
+      "path": "demo/runs/20261006T161200Z_c079ec7b/parser/quantity-mismatch.md.json",
+      "sha256": "df78b3d0afec55974bdce838d0423a0ca0edfa5c0cfb921cf8215d80bca9cc3f"
+    },
+    {
+      "path": "demo/runs/20261006T161200Z_c079ec7b/parser/sku-mismatch.md.json",
+      "sha256": "1a0866690ba98955678671c247106365c507d1f0bab6985794c0c79935962a6b"
+    },
+    {
+      "path": "demo/runs/20261006T161200Z_c079ec7b/parser/wrong-price.md.json",
+      "sha256": "a7fa5a00fa34b928c9035919f1699500180f67a9c89c861c7a5bbdec3553b455"
+    }
+  ]
+}

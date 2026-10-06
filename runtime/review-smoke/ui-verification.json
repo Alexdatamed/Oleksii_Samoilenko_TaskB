@@ -1,0 +1,32 @@
+{
+  "browser_checked": true,
+  "ui_path": "/ui/",
+  "docs_path": "/docs",
+  "actions": [
+    "dataset loading",
+    "original image display",
+    "invoice selection",
+    "correction save",
+    "queue and totals refresh",
+    "status filter",
+    "four-image upload through Gradio",
+    "replay batch progress and persistence"
+  ],
+  "synthetic_correction_scope": "isolated smoke database only",
+  "ui_replay_summary": {
+    "dataset": "real-ui-replay-smoke",
+    "dataset_id": "3dc08254-efd4-480f-bab1-3c8221f38502",
+    "mode": "replay",
+    "total_invoices": 4,
+    "counts_by_status": {
+      "reconciled": 1,
+      "discrepant": 1,
+      "duplicate": 1,
+      "unresolved": 1
+    },
+    "processing_errors": 0,
+    "current_extraction_issue_invoices": 1,
+    "overcharge_cents": 2000
+  },
+  "new_live_gemini_requests": 0
+}

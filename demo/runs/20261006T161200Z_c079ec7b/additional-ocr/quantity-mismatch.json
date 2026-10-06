@@ -1,0 +1,102 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "quantity-mismatch",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2486262675625765814,
+    "filename": "quantity-mismatch.png"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.0,
+            "t": 615.6666666666666,
+            "r": 437.3333333333333,
+            "b": 583.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "FICTIONAL INVOICE INV-4",
+      "text": "FICTIONAL INVOICE INV-4",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.0,
+            "t": 501.66666666666663,
+            "r": 289.3333333333333,
+            "b": 148.66666666666669,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Supplier: S1 Purchase order: PO-3 Item / SKU: CAB-1 Quantity: 6 Unit price (USD): 20.00 Total (USD}: 120.00",
+      "text": "Supplier: S1 Purchase order: PO-3 Item / SKU: CAB-1 Quantity: 6 Unit price (USD): 20.00 Total (USD}: 120.00"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 950.0,
+        "height": 650.0
+      },
+      "page_no": 1
+    }
+  }
+}
